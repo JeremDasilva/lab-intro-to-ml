@@ -1,3 +1,7 @@
+CREATE SCHEMA `austin_weather`;
+
+USE austin_weather;
+
 CREATE TABLE IF NOT EXISTS austin_weather (
     `Date` DATETIME,
     `TempHighF` INT,
